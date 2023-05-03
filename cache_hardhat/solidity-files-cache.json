@@ -1,0 +1,239 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jaybuidl/project/kleros/lossless/src/IArbitrableProxy.sol": {
+      "lastModificationDate": 1683056131702,
+      "contentHash": "cff2c682701810d6a8f121c5a220b1ac",
+      "sourceName": "src/IArbitrableProxy.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IArbitrableV1.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "IArbitrableProxy"
+      ]
+    },
+    "/Users/jaybuidl/project/kleros/lossless/src/IArbitrableV1.sol": {
+      "lastModificationDate": 1683055592802,
+      "contentHash": "2fda9c96e0f86d4ebc5031ea4e01e249",
+      "sourceName": "src/IArbitrableV1.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IArbitratorV1.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "IArbitrableV1"
+      ]
+    },
+    "/Users/jaybuidl/project/kleros/lossless/src/IArbitratorV1.sol": {
+      "lastModificationDate": 1683055576192,
+      "contentHash": "7176d657c4d68ae18c73e0787a6dc71e",
+      "sourceName": "src/IArbitratorV1.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IArbitrableV1.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "IArbitratorV1"
+      ]
+    },
+    "/Users/jaybuidl/project/kleros/lossless/src/LosslessKlerosProxy.sol": {
+      "lastModificationDate": 1683058079082,
+      "contentHash": "808db0b1d47767ace88473afdb0c0f65",
+      "sourceName": "src/LosslessKlerosProxy.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ILosslessGovernance.sol",
+        "./IArbitrableProxy.sol",
+        "./IKlerosLiquid.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "LosslessKlerosProxy"
+      ]
+    },
+    "/Users/jaybuidl/project/kleros/lossless/src/ILosslessGovernance.sol": {
+      "lastModificationDate": 1683057155122,
+      "contentHash": "f4dce61bfd10abc6d696f4b2fefb8b74",
+      "sourceName": "src/ILosslessGovernance.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "ILosslessGovernance"
+      ]
+    },
+    "/Users/jaybuidl/project/kleros/lossless/src/IKlerosLiquid.sol": {
+      "lastModificationDate": 1683056517014,
+      "contentHash": "2590b4174baf3cd2f8ad0ae598d0ab03",
+      "sourceName": "src/IKlerosLiquid.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IArbitratorV1.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "IKlerosLiquid"
+      ]
+    }
+  }
+}
